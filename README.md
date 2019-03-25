@@ -11,4 +11,4 @@ In this project we will cover the basics of `Structure Query Language (SQL)` and
 
 ## Project Setup
 
-Nothing to setup. Please follow along with the instructor.
+Nothing to setup. Please [load this page in the browser](https://www.w3schools.com/Sql/tryit.asp?filename=trysql_select_top) and follow along with the instructor.
