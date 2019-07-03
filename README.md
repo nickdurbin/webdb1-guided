@@ -1,6 +1,4 @@
-# DB I Module Guided Project
-
-Guided project for **DB I** module.
+# Introduction to Relational Databases, SQL and Knex
 
 In this project we will cover the basics of `Structure Query Language (SQL)`, `Relational Databases`, and `Knex.js Queries`.
 
