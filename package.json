@@ -1,5 +1,5 @@
 {
-  "name": "webdb-i-guided",
+  "name": "node-db1-guided",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,6 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.2"
   }
 }
