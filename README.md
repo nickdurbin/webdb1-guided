@@ -4,7 +4,7 @@ In this project we will cover the basics of `Structure Query Language (SQL)`, `R
 
 ## Prerequisites
 
-- [This Query Tool Loaded in the browser](https://www.w3schools.com/Sql/tryit.asp?filename=trysql_select_top).
+- [SQLite Studio Installed](https://sqlitestudio.pl/index.rvt?act=download).
 
 ## Project Setup
 
