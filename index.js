@@ -1,7 +1,17 @@
-const server = require('./server.js');
+const express = require("express")
+const postRouter = require("./posts/post-router")
 
-const PORT = process.env.PORT || 4000;
+const server = express()
+const host = process.env.HOST || "localhost"
+const port = process.env.PORT || 4000
 
-server.listen(PORT, () => {
-  console.log(`Listening on port ${PORT}...`);
-});
+server.use(express.json())
+server.use("/api/posts", postRouter)
+
+server.get("/", (req, res) => {
+  res.json({ message: "DB Helpers with Knex" })
+})
+
+server.listen(port, () => {
+  console.log(`Listening on http://${host}:${port}`)
+})

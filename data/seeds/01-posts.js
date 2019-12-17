@@ -1,8 +1,8 @@
-
-exports.seed = function(knex, Promise) {
-  return knex('posts').truncate()
-    .then(function () {
-      return knex('posts').insert([
+exports.seed = (knex) => {
+  return knex("posts")
+    .truncate()
+    .then(() => {
+      return knex("posts").insert([
         { title: "post-01", contents: "Let your workings remain a mystery. Just show people the results." },
         { title: "post-02", contents: "True mastery can be gained by letting things go their own way. It can't be gained by interfering." },
         { title: "post-03", contents: "Not-knowing is true knowledge. Presuming to know is a disease." },
@@ -15,6 +15,6 @@ exports.seed = function(knex, Promise) {
         { title: "post-11", contents: "Act without doing; work without effort." },
         { title: "post-12", contents: "Do you have the patience to wait until your mud settles and the water is clear? Can you remain unmoving until the right action arises by itself?" },
         { title: "post-13", contents: "He who tries to shine dims his own light. He who defines himself can't know who he really is. He who clings to his work will do nothing that endures. Just do your job, then let go." }
-      ]);
-    });
-};
+      ])
+    })
+}
